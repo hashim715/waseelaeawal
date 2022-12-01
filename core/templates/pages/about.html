@@ -1,0 +1,437 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'components/header.html' %}
+</head>
+<body>
+    {% include 'components/nav.html' %}
+
+    <!--============ Hero section ================-->
+    <div class="hero-wrap" style="background-image: url('/static/images/bg_7.jpg');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+            <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+               <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="{% url 'home' %}">Home</a></span> <span>About</span></p>
+              <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">About Us</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- ============== intro =============== -->
+      <section class="ftco-section">
+          <div class="container">
+              <div class="row d-flex">
+                  <div class="col-md-6 col-lg-6 col-sm-12 col-12 d-flex ftco-animate">
+                      <div class="img img-about align-self-stretch" style="background-image: url(/static/images/bg\ \(2\).JPG); width: 100%;"></div>
+                  </div>
+                  <div class="col-md-6 col-lg-6 col-sm-12 col-12 pl-md-5 ftco-animate">
+                      <h2 class="mb-4">Welcome to Waseela E Awal</h2>
+                      <p>There is one with soul desiring mend and so he
+                pleads,<br>
+                but there is also another in greater distress and with needs.<br>
+                Then it is the composure of both that is assessed,<br>
+                and for the two He plans, keeping with what He witnessed.<br>
+                So Together We Stand, To Please Him Through Service,<br>
+                and express gratitude by being all’s source of bliss.<br>
+                The name Waseela e Awal represents the idea of one being the source of help and happiness to another
+                through the Almighty,<br> as such being Zariya e Khuda.
+                Encouraging the thought that an act of goodwill regardless of how small, is still an effort,<br> and the most
+                minor of these will in time get together to bring about significance to a cause.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+  
+  
+      <!-- =============== team members =============== -->
+  
+      <h1 style="text-align: center; font-weight: bold; text-decoration: underline;">Meet Our Team</h1>
+  
+        <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+  
+          <div class="container">
+  
+            <h1 style="text-align: center; margin-bottom: 2rem">Executive Board</h1>
+  
+            <div class="row" style="display: flex;justify-content:center;align-items: center;">
+              <div class="col-lg-5 col-md-5 col-sm-12 col-xl-5 col-12  d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team2.jpg' %}" class="img-fluid" alt="" style="height:400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Syed Arham Abbas</h4>
+                    <span style="text-align:center;">PRESIDENT</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team3.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Mustafa Jamali</h4>
+                    <span style="text-align: center;">Vice PRESIDENT</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team4.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Pirah Soomro</h4>
+                    <span style="text-align: center;">GENERAL SECRETARY</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team5.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Fareeza Samoo</h4>
+                    <span style="text-align: center;"><br></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <h1 style="text-align: center; padding-top: 12px; margin-bottom: 2rem;">HEAD CREW</h1>
+  
+            <div class="row main_row" style="display: flex;justify-content: center;">
+  
+              <div class="col-lg-5 col-md-5 col-sm-12 col-xl-5 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team6.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;"> 
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Hamza Moosani</h4>
+                    <span style="text-align: center;">Head Coordinator-External Affairs</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-5 col-md-5 col-sm-12 col-xl-5 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team7.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Minahil Memon</h4>
+                    <span style="text-align: center;">Head Coordinator-Internal Affairs</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-5 col-md-5 col-sm-12 col-xl-5 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team8.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Jawad Memon</h4>
+                    <span style="text-align: center;">Director</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-5 col-md-5 col-sm-12 col-xl-5 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team9.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Tayyaba Memon</h4>
+                    <span style="text-align: center;">Director</span>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <h1 style="text-align: center; margin-bottom: 2rem;margin-top: 2rem">Other Members</h1>
+  
+            <div class="row main_row" style="display: flex;justify-content: center;">
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team10.JPG' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Kumail Hussain</h4>
+                    <span style="text-align: center;">Team Management</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team11.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Syeda Alizeh Noor</h4>
+                    <span style="text-align: center;">Internal Fund Raise Incharge</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team12.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Atif Mirrani</h4>
+                    <span style="text-align: center;">Team Management</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img img13">
+                    <img src="{% static 'images/team/user.png' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Maryam Khanzada</h4>
+                    <span style="text-align: center;">Content formation incharge</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team14.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Adbul Rahim Memon</h4>
+                    <span style="text-align: center;">Team Photography</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 col-12 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team15.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Haleema Memon</h4>
+                    <span style="text-align: center;">Brand Ambassador</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team16.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Sania Memon</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team17.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Hifza Fatima</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img img13">
+                    <img src="{% static 'images/team/user.png' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Khizra Shaikh</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team19.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Ashar Jatoi</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team20.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Dua Solangi</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team21.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Bushra Solangi</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team22.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Faizan Mallah</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team23.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Noor Fatima</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img img13">
+                    <img src="{% static 'images/team/user.png' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Sidra Khan</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team25.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Prakash</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team26.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Tahreem Saeed</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team27.JPG' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Syed Hasnain</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team28.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Rafay siddiqui</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team29.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Maria Agha</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team30.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Zainab Jamali</h4>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/team31.jpg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Muskan Lohana</h4>
+                  </div>
+                </div>
+              </div>
+  
+              
+  
+              <div class="col-lg-4 col-md-4 d-flex align-items-stretch">
+                <div class="member">
+                  <div class="member-img">
+                    <img src="{% static 'images/team/hashim.jpeg' %}" class="img-fluid" alt=""  style="height: 400px;">
+                  </div>
+                  <div class="member-info">
+                    <h4 style="text-align: center;">Muhammad Hashim</h4>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+        </section>
+      </section>
+  
+      <br> <br>
+
+    {% include 'components/footer.html' %}
+</body>
+</html>

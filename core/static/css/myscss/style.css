@@ -1,0 +1,12 @@
+.hero-wrap .container .row .btndiv .btnhome1 a {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+.hero-wrap .container .row .btndiv .btnhome1 a span {
+  color: #000;
+}
+.hero-wrap .container .row .btndiv .btnhome1 a:hover {
+  color: rgb(255, 69, 0);
+  transform: translateY(-10px);
+}/*# sourceMappingURL=style.css.map */

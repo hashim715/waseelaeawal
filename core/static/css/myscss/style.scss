@@ -1,0 +1,23 @@
+.hero-wrap{
+    .container{
+        .row{
+            .btndiv{
+                .btnhome1{
+                    a{
+                        background-color: #fff;
+                        color: #000;
+                        transition: .5s;
+                        span{
+                            color: #000;
+                        }
+
+                        &:hover{
+                            color: rgb(255, 69, 0);
+                            transform: translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
