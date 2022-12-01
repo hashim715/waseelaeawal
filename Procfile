@@ -1,0 +1,1 @@
+web: gunicorn waseelaeawal.wsgi
