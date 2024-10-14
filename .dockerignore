@@ -47,3 +47,5 @@ Dockerfile
 # Ingore README and gitignore files
 .gitignore
 README.md
+
+static
