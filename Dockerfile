@@ -13,6 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Step 5: Copy the rest of the application code to the container
 COPY . .
 
+RUN python manage.py collectstatic
+
 # Step 6: Set environment variables
 # Prevents Python from writing .pyc files and buffering stdout/stderr
 ENV PYTHONUNBUFFERED=1
