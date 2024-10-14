@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include 'components/header.html' %}
+  <style>
+    .video-size {
+      width: 50%;
+      height: 250px;
+    }
+
+    /* .video-size > video {
+  width: 100%;
+} */
+  </style>
+</head>
+
+<body>
+
+  {% include 'components/nav.html' %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active slides">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown" style="padding-top: 50px;">Welcome to <span> Waseelaeawal
+            </span></h2>
+          <!-- <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a> -->
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item slides">
+        <div class="carousel-container">
+          <!-- <h2 class="animate__animated animate__fadeInDown" style="padding-top: 50px;">Together we stand to please him through our service</h2> -->
+          <h3 class="animate__animated animate__fadeInDown" style="color:white;padding-top: 70px;">Together we stand to
+            please him through our service</h3>
+          <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p> -->
+          <!-- <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a> -->
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section>
+
+  <main id="main">
+    <div class="container">
+      <div class="row" style="display: flex;justify-content: center;">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-12">
+          <iframe width="100%" height="430px" src="https://www.youtube.com/embed/8DNSH23gL2Q"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} <div class="row align-items-md-stretch" style="display: flex;justify-content: center;margin-top:100px;">
+      <div class="col-md-8 col-sm-6 col-6 col-lg-8">
+        <div class="h-100 p-5 text-white  rounded-3" style="background-color: #ec67b9;">
+          <p>There is one with soul desiring mend and so he
+            pleads,<br>
+            but there is also another in greater distress and with needs.<br>
+            Then it is the composure of both that is assessed,<br>
+            and for the two He plans, keeping with what He witnessed.<br>
+            So Together We Stand, To Please Him Through Service,<br>
+            and express gratitude by being all’s source of bliss.<br>
+            The name Waseela e Awal represents the idea of one being the source of help and happiness to another
+            through the Almighty,<br> as such being Zariya e Khuda.
+            Encouraging the thought that an act of goodwill regardless of how small, is still an effort,<br> and the most
+            minor of these will in time get together to bring about significance to a cause.</p></p>
+        </div>
+      </div>
+    </div> {% endcomment %}
+
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
+        <div class="row" data-aos="fade-up" style="display: flex;justify-content: center;">
+          <div class="col-md-6">
+            <img src={% static "assets/img/IMG_5691.jpg" %} class="img-fluid" alt="">
+          </div>
+          <div class="col-md-6 pt-4">
+            <p style="font-family: sans-serif;font-weight: 600;">
+              There is one with soul desiring mend and so he pleads,
+              but there is also another in greater distress and with needs.
+              Then it is the composure of both that is assessed,
+              and for the two He plans, keeping with what He witnessed.
+              So Together We Stand, To Please Him Through Service,
+              and express gratitude by being all’s source of bliss.
+
+              The name Waseela e Awal represents the idea of one being the source of help and happiness to another
+              through the Almighty, as such being Zariya e Khuda.
+              Encouraging the thought that an act of goodwill regardless of how small, is still an effort, and the most
+              minor of these will in time get together to bring about significance to a cause.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section class="features">
+      <div class="container">
+        <div class="row" data-aos="fade-up" style="display: flex;align-items: center;">
+          <div class="col-md-6 order-1 order-md-2">
+            <img src={% static "assets/img/header.jpg" %} class="img-fluid" alt="">
+          </div>
+          <div class="col-md-6 pt-4 order-2 order-md-1">
+            <p>
+            <h3 style="text-align: center;font-size: 20px;font-family: sans-serif;font-weight: 600;"> " The best among
+              you are those who bring greatest benefits to others."<br>Prophet Muhammad
+            </h3>
+            </p>
+            <!-- <ul>
+              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  {% include 'components/footer.html' %}
+</body>
+
+</html>

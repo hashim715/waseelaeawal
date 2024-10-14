@@ -1,0 +1,75 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+ENV/
+
+# Django specific files
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Local settings
+settings_local.py
+
+# Static and media files
+staticfiles/
+media/
+
+# Ignore the Django migrations
+**/migrations/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test and coverage directories
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-global.rc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore S3-related files (optional, if you're using S3)
+*.boto
+
+# Other IDEs and editors
+*.swp
+*.swo
+*.swn
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Node.js files (optional, if you're using Node for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
